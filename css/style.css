@@ -113,7 +113,7 @@ a {
     align-items: center;
 }
 
-.main{
+.main {
     padding: 14px;
 }
 
@@ -121,7 +121,42 @@ a {
     padding: 16px;
 }
 
-.logo__text{
+.logo__text {
     margin-top: 12px;
     margin-left: 23px;
+}
+
+.about__section {
+    background: #343D33;
+}
+
+.about__top-pic {
+    width: 534px;
+    height: 354px;
+    left: 179px;
+    top: 1015px;
+}
+
+.about__botton-img {
+    width: 1040px;
+    height: 409px;
+    left: 179px;
+    top: 1449px;
+}
+
+.about__top {
+    display: flex;
+    color: white;
+}
+.about__column-about__desc {
+    padding: 89px;
+}
+
+.container-about__container {
+    padding: 96px 169px;
+}
+
+.btn__btn--white {
+    border: 2px solid #FFFFFF;
+    color: white;
 }

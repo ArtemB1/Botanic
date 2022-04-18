@@ -65,6 +65,11 @@ a {
     justify-content: space-between;
     display: flex;
     margin-left: 150px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    font-family: 'Roboto';
 }
 
 .logo {
@@ -79,7 +84,6 @@ a {
 }
 
 .hero__content {
-    text-align: center;
     display: flex;
     margin-top: 100px;
     justify-content: center;
@@ -96,6 +100,12 @@ a {
     padding: 10px 30px;
     background: #475F45;
     color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    font-family: 'Roboto';
+    display: block;
 }
 
 .header__content {
@@ -108,9 +118,9 @@ a {
 
 .nav__item--border {
     border: 2px solid #475F45;
-    padding: 15px 30px;
     margin-top: -11px;
     align-items: center;
+    padding: 10px 30px;
 }
 
 .main {
@@ -119,6 +129,10 @@ a {
 
 .hero__desc {
     padding: 16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 150%;
 }
 
 .logo__text {
@@ -148,15 +162,83 @@ a {
     display: flex;
     color: white;
 }
+
 .about__column-about__desc {
     padding: 89px;
 }
 
-.container-about__container {
+.container__about-container {
     padding: 96px 169px;
 }
 
 .btn__btn--white {
     border: 2px solid #FFFFFF;
     color: white;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    font-family: 'Roboto';
+}
+
+.about__info {
+    padding: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.btr {
+    border: 2px solid #475F45;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    font-family: 'Roboto';
+}
+
+.newz__img {
+    width: 520px;
+    height: 333px;
+    left: 0px;
+    top: 0px;
+}
+
+.newx__img {
+    width: 236px;
+    height: 151px;
+    left: 0px;
+    top: 0px;
+}
+
+.newt__img {
+    width: 236px;
+    height: 151px;
+    left: 0px;
+    top: 0px;
+}
+
+.newy__img {
+    width: 236px;
+    height: 151px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo__title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.logo__subtitle {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
 }

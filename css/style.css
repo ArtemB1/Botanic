@@ -105,7 +105,6 @@ a {
     line-height: 16px;
     letter-spacing: 0.15em;
     font-family: 'Roboto';
-    display: block;
 }
 
 .header__content {
@@ -242,3 +241,107 @@ a {
     font-size: 15px;
     line-height: 18px;
 }
+
+.news__item-text {
+    font-family: 'Libre Baskerville';
+}
+
+.news__item-title {
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 110%;
+    color: #475F45;
+}
+
+.news__item-date {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer {
+    background: #414840;
+    color: white;
+}
+
+.footer__nav-link {
+    color: white;
+}
+
+.container-footer__container {
+    display: flex;
+    padding: 116px 140px;
+}
+
+.footer__bottom {
+    background: #343D33;
+    padding: 21px 30px;
+    text-align: center;
+}
+
+.footer__column {
+    margin-left: 150px;
+}
+
+.footer__nav-item {
+    padding: 10px;
+}
+
+.footer__info {
+    padding-top: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.social__list {
+    display: flex;
+    padding-top: 20px;
+}
+
+.footer__subtitle {
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+}
+
+.news__content {
+    display: flex;
+    justify-content: center;
+}
+
+.news__link {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    margin-left: 200px;
+}
+
+.subtitle-news__subtitle {
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 110%;
+}
+
+.twitter {
+    background-image: url(../img/icon/twitter.svg);
+  }
+  
+  .fb {
+    background-image: url(../img/icon/facebook.svg);
+  }
+  
+  .in {
+    background-image: url(../img/icon/linkedin.svg);
+  }
+  
+  .mail {
+    background-image: url(../img/icon/mail.svg);
+  }

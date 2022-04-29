@@ -70,6 +70,7 @@ a {
     line-height: 16px;
     letter-spacing: 0.15em;
     font-family: 'Roboto';
+    padding-top: 37px;
 }
 
 .logo {
@@ -148,13 +149,15 @@ a {
     height: 354px;
     left: 179px;
     top: 1015px;
+    border-radius: 5px;
 }
 
-.about__botton-img {
+.about__bottom-img {
     width: 1040px;
     height: 409px;
     left: 179px;
     top: 1449px;
+    border-radius: 5px;
 }
 
 .about__top {
@@ -164,6 +167,7 @@ a {
 
 .about__column-about__desc {
     padding: 89px;
+    margin-top: -90px;
 }
 
 .container__about-container {
@@ -204,6 +208,7 @@ a {
     height: 333px;
     left: 0px;
     top: 0px;
+    border-radius: 5px;
 }
 
 .newx__img {
@@ -211,6 +216,7 @@ a {
     height: 151px;
     left: 0px;
     top: 0px;
+    border-radius: 5px;
 }
 
 .newt__img {
@@ -218,6 +224,7 @@ a {
     height: 151px;
     left: 0px;
     top: 0px;
+    border-radius: 5px;
 }
 
 .newy__img {
@@ -225,6 +232,7 @@ a {
     height: 151px;
     left: 0px;
     top: 0px;
+    border-radius: 5px;
 }
 
 .logo__title {
@@ -421,6 +429,10 @@ a {
 .footer__subtitl {
     color: white;
     padding: 40px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 110%;
+    font-family: 'Libre Baskerville';
 }
 
 .footer__nav-ite {

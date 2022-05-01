@@ -324,15 +324,6 @@ a {
     margin-top: 50px;
 }
 
-.news__link {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.15em;
-    margin-left: 200px;
-}
-
 .subtitle-news__subtitle {
     font-family: 'Libre Baskerville';
     font-weight: 400;
@@ -437,4 +428,35 @@ a {
 
 .footer__nav-ite {
     padding-top: 40px;
+}
+
+.news__link {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    display: flex;
+    align-items: center;
+}
+
+.news__link::before{
+    content: "";
+    display: block;
+    height: 0;
+    width: 131px;
+    border-bottom: 2px solid rgba(71, 95, 69, 0.4);
+    margin-right: 20px;
+}
+
+.news__link::after{
+    content: "";
+    display: block;
+    background-image: url('../img/icon/arrow-right.svg');
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 15px;
 }
